@@ -77,7 +77,7 @@ st.markdown("""
 
 @st.cache_resource
 def load_model():
-    with open("stress_level.pkl", "rb") as file:
+    with open("kelompok5/stress_level.pkl", "rb") as file:
         model = pickle.load(file)
 
     return model
